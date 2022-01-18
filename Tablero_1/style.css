@@ -1,0 +1,75 @@
+div.celda {
+    float: left;
+    width: 25%;
+    padding: 100px 15px 100px 15px;
+    border: solid 10px MediumSlateBlue;
+    text-align: center;
+    color: Purple;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: lavender
+}
+
+#div00 {
+    border-color: magenta;
+    border-width: 10px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+#div01 {
+    border-color: BlueViolet;
+    border-width: 10px 10px 0px 10px;
+}
+
+#div02 {
+    border-color: magenta;
+    border-width: 10px 0px 10px 0px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+#div03 {
+    border-color: magenta;
+    border-top-style: dashed;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed;
+}
+
+#div04 {
+    border-color: Purple;
+    border-width: 10px;
+    border-style: dotted;
+
+}
+
+#div05 {
+    border-color: magenta;
+    border-top-style: dashed;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: dashed;
+}
+
+#div06 {
+    border-color: magenta;
+    border-width: 0px 10px 10px 0px;
+    border-top-style: none;
+    border-bottom-style: double;
+
+}
+
+#div07 {
+    border-color: magenta;
+    border-width: 0px 10px 10px 0px;
+    border-bottom-style: double;
+}
+
+#div08 {
+    border-color: magenta;
+    border-width: 0px 0px 10px 0px;
+    border-bottom-style: double;
+}

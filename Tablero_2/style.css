@@ -1,0 +1,52 @@
+    .tablero {
+    width: 900px;
+    height: 660px;
+    border: dotted 10px midnightblue;
+    }
+
+    .celda {
+    float: left;
+    width: 280px;
+    height: 120px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: SandyBrown;
+    }
+
+    #celda00 {
+    border: solid 10px navy;
+    }
+
+    #celda01 {
+    border: ridge 10px darkblue;
+    }
+
+    #celda02 {
+    border: dashed 10px mediumblue;
+    }
+
+    #celda03 {
+    border: groove 10px blue;
+
+    }
+
+    #celda04 {
+    border: ridge 10px royalblue;
+    }
+
+    #celda05 {
+    border: inset 10px MediumSlateBlue
+    }
+
+    #celda06 {
+    border: dashed 10px mediumblue;
+    }
+
+    #celda07 {
+    border: solid 10px DodgerBlue;
+    }
+
+    #celda08 {
+    border: solid 10px navy;
+    }
