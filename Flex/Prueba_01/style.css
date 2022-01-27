@@ -1,0 +1,122 @@
+html {
+    font-family: 'Helvetica Neue';
+    }
+    
+    body {
+    margin: 0;
+    }
+
+    header {
+    background: rgb(175, 225, 175);
+    text-align: center;
+    height: max-content;
+    padding: 1em;
+    }
+    
+    section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100pvh;
+    }
+    
+    article {
+    flex: 1;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1em;
+    font-size: 1.5em;
+    text-align: justify;
+    }
+    
+    article:nth-child(2) {
+    flex: 2;
+    }
+    
+    #tablero {
+    background-image: linear-gradient( rgb(203, 142, 91), rgb(178, 91, 16));
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 10fr;
+    gap: 5px;
+    }
+    
+    #tablero > div {
+    margin: 10px;
+    padding: 5px;
+    }
+
+    #topRight {
+        position: relative;
+    }
+    .hide-element {
+        background-color: rgb(151, 77, 12);
+        width: 100%;
+        height: 100px;
+        top: 50px;
+        right: 0;
+        opacity:0.8;
+        z-index: 25;
+        position: absolute;
+        border-radius: 20px;
+    }
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .flex-container div {
+        background-color: rgb(131, 131, 131);
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        margin: 22px;
+        border: 2px solid black;
+    }
+    .grid-resultado {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 50px;
+        margin: 20px;
+    }
+    .grid-resultado div {
+        background-color: rgb(131, 131, 131);
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 100%;
+        border: 2px solid black;
+    }
+
+    .grid-resultado div.black {
+        background-color: black;
+    }
+
+    .grid-resultado div.white {
+        background-color: white;
+    }
+
+    .flex-container div.lime {
+        background-color: lime;
+    }
+
+    .flex-container div.firebrick{
+        background-color: firebrick;
+    }
+
+    .flex-container div.blue {
+        background-color: blue;
+    }
+
+    .flex-container div.orange {
+        background-color: orange;
+    }
+
+    .flex-container div.yellow {
+        background-color: yellow;
+    }

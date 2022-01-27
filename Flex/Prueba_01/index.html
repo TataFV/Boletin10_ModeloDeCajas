@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MasterMind</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+
+    <head>
+
+    <body>
+        <header>
+            <h1>MasterMind</h1>
+        </header>
+        <section>
+            <article>
+                <h2>Instrucciones</h2>
+                <p>La máquina escoge un número de fichas de colores, y pone un código secreto oculto. </p>
+                <p>El jugador, tomando fichas de colores del mismo conjunto, aventura una posibilidad contestada con
+                    negras (fichas de color bien colocadas) o blancas (fichas de color con el color correcto, pero mal
+                    colocadas).</p>
+                <p>Tienes 7 intentos.</p>
+            </article>
+            <article>
+                <div id="tablero">
+                    <div id="topLeft"> </div>
+                    <div id="topRight">
+                        <div id="combinacion" class="flex-container">
+                            <div class="lime"></div>
+                            <div class="firebrick"></div>
+                            <div class="blue"></div>
+                            <div class="lime"></div>
+                        </div>
+                        <div class="hide-element"></div>
+                    </div>
+                    <div id="bottomLeft">
+                        <div id="resultadoFila1" grupo1 class="grid-resultado">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="resultadoFila2" class="grid-resultado">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="resultadoFila3" class="grid-resultado">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="resultadoFila4" class="grid-resultado">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="resultadoFila5" class="grid-resultado">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="resultadoFila6" class="grid-resultado">
+                            <div class="black"></div>
+                            <div class="white"></div>
+                            <div class="white"></div>
+                            <div></div>
+                        </div>
+                        <div id="resultadoFila7" class="grid-resultado">
+                            <div class="white"></div>
+                            <div></div>
+                            <div class="black"></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div id="bottomRight">
+                        <div id="fila1" class="flex-container">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="fila2" class="flex-container">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="fila3" class="flex-container">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="fila4" class="flex-container">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="fila5" class="flex-container">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div id="fila6" class="flex-container">
+                            <div class="lime"></div>
+                            <div class="lime"></div>
+                            <div class="orange"></div>
+                            <div class="firebrick"></div>
+                        </div>
+                        <div id="fila7" class="flex-container">
+                            <div class="firebrick"></div>
+                            <div class="yellow"></div>
+                            <div class="firebrick"></div>
+                            <div class="lime"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </article>
+            <article>
+                <h2>Partidas jugadas: <span id="partidas">0</span></h2>
+                <h2>Intentos: <span id="intentos">2</span></h2>
+            </article>
+    </body>
+
+</html>
